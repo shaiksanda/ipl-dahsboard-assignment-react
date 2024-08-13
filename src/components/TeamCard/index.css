@@ -1,0 +1,50 @@
+/* Write your CSS here */
+team-image {
+  width: 50px;
+  height: 50px;
+
+  margin: 10px;
+}
+
+.team-name {
+  font-size: 10px;
+  color: black;
+}
+
+@media screen and (min-width: 768px) {
+  .team-image {
+    width: 150px;
+    height: 200px;
+  }
+  .team-name {
+    font-size: 30px;
+  }
+}
+.team-card-item {
+  width: 45%; /* Adjust width to fit two items per row with margins */
+  margin: 6px; /* Space between rows */
+  display: flex;
+  text-decoration: none;
+  flex-direction: row; /* Align content vertically */
+  align-items: center; /* Center items horizontally */
+  background-color: #ffffff;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.team-card-item:hover {
+  transform: translate(5px);
+  background-color: #18ed66;
+}
+
+/* Style for navigation item link */
+
+li {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.match-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 10px;
+  width: 200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.match-item:hover {
+  transform: translateY(5px);
+}
+
+.competing-team-logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 12px;
+}
+
+.competing-team-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.result {
+  font-size: 16px;
+  color: #555;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.match-status {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 4px;
+  text-align: center;
+  width: 100%;
+}
+
+.match-won {
+  color: #4caf50;
+}
+
+.match-lost {
+  color: #f44336;
+}
